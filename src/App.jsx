@@ -8,7 +8,7 @@ import Home from './pages/Home'
 import LoveLetter from './pages/LoveLetter'
 import Test from './pages/Test'
 import OpeningAnimation from './components/OpeningAnimation'
-import { setupGlobalSounds } from './hooks/useSound'
+import BackgroundMusic from './components/BackgroundMusic'
 
 const App = () => {
 
@@ -22,11 +22,10 @@ const App = () => {
     </Route>
   ))
 
-
-  // ------------------Cake loader 
+  // ------------------Cake loader
   const [loading, setLoading] = useState(true);
   const [showContent, setShowContent] = useState(false);
-  const [animateOut, setAnimateOut] = useState(false); // New state for animation
+  const [animateOut, setAnimateOut] = useState(false);
 
   useEffect(() => {
     const handlePageLoad = () => {
@@ -44,12 +43,6 @@ const App = () => {
     return () => window.removeEventListener("load", handlePageLoad);
   }, []);
 
-  // ------------------ 鼠标操作音效
-  useEffect(() => {
-    if (!showContent) return;
-    return setupGlobalSounds();
-  }, [showContent]);
-
   return (
     <>
       {
@@ -58,6 +51,7 @@ const App = () => {
       {
         showContent && <RouterProvider router={MyRoute} />
       }
+      <BackgroundMusic />
     </>
   )
 }
