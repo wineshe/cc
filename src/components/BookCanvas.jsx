@@ -29,7 +29,7 @@ const BookCanvas = ({ active, setActive }) => {
                 <div className="card1">
                     <div className="cover-text-wrapper">
                         <h4 className="username">
-                            亲爱的 Trisha<span className="underline"></span>
+                            亲爱的 Cynthia<span className="underline"></span>
                         </h4>
                         <h3 className="cover-title">
                             生日快乐！
@@ -68,9 +68,9 @@ const BookCanvas = ({ active, setActive }) => {
 
                         {/* Swapping back to H2 to match the original CSS targeting */}
                         <div className="card2-message-text italic">
-                            <article style={{ marginBottom: '8px' }}>生日快乐，Trisha ❤️</article>
-                            <article style={{ marginBottom: '10px' }}>从我们相遇的那一刻起，我生命中的某些东西悄然改变了——仿佛宇宙在静静指引我走向那个为我而生的人。你带来了温暖，融化了那些我甚至不曾察觉的冰冷角落，你用我无法言说的维度丰富了我的每一天。</article>
-                            <article style={{ marginBottom: '10px' }}>在你生日的这一天，我只想让你知道：我想让你陪我走过每一个篇章，每一场风雨，每一缕阳光，每一个明天。无论发生什么，我都会在你身边——永远。我会选择你、保护你、支持你、爱着你，用让你永不孤单的方式。</article>
+                            <article style={{ marginBottom: '8px' }}>生日快乐，Cynthia ❤️</article>
+                            <article style={{ marginBottom: '10px' }}>自从6年前的今天，我世界中的某些东西悄然改变了——仿佛宇宙在静静指引我走向那个为我而生的人。你带来了温暖，融化了那些我甚至不曾察觉的冰冷角落，你用我无法言说的维度丰富了我的每一天。</article>
+                            <article style={{ marginBottom: '10px' }}>在你生日的这一天，我只想让你知道：我想让你陪我走过每一个篇章，每一场风雨，每一缕阳光，每一个明天。无论发生什么，我都会在你身边——永远。</article>
                             <article style={{ marginBottom: '10px' }}>今天你不只是又长大了一岁……<br />
                                 你是我的生命变得更柔软、更明亮、更值得活着的全部理由。生日快乐。</article>
                         </div>
@@ -91,7 +91,7 @@ const BookCanvas = ({ active, setActive }) => {
                         <div className="confetti-dots"></div>
 
                         <p className="signature">
-                            你最好的朋友，Rexon
+                            爱你的爸爸，Yarden
                         </p>
                     </div>
                 </div>
