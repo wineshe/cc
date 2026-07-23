@@ -7,6 +7,7 @@ import Layout from './layout/Layout'
 import Home from './pages/Home'
 import LoveLetter from './pages/LoveLetter'
 import Test from './pages/Test'
+import Wonderland from './pages/Wonderland'
 import OpeningAnimation from './components/OpeningAnimation'
 import { setupGlobalSounds } from './hooks/useSound'
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='love-Letter' element={<LoveLetter />}></Route>
         <Route path='test' element={<Test />}></Route>
       </Route>
+      <Route path='wonderland' element={<Wonderland />}></Route>
     </Route>
   ))
 

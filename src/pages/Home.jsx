@@ -109,6 +109,12 @@ const Home = () => {
                                     来自 爸爸
                                 </Link>
                             </div>
+                            <div id="FromRexon" style={{ marginTop: '30px' }}>
+                                <Link to={'/wonderland'} className="flex items-center gap-2 md:text-[1rem] text-sm">
+                                    <span style={{ fontSize: '1.3rem' }}>🌈</span>
+                                    神奇的奇妙世界
+                                </Link>
+                            </div>
                         </div>
                     </div>
 
